@@ -29,6 +29,9 @@
           <li class="nav-item">
             <a href="?p=about" class="nav-link">เกี่ยวกับ</a>
           </li>
+          <li class="nav-item">
+            <a href="?p=login" class="nav-link">เข้าสู่ระบบ</a>
+          </li>
         </ul>
 
       </div>
