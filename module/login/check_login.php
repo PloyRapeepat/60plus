@@ -10,6 +10,6 @@ if(empty($_POST['username'])||empty($_POST['password'])){
         echo "ข้อมูลชื่อผู้ใช้หรือรหัสผ่านไม่ถูกต้อง";
     }else{
         $_SESSION['user']=$result->fetch_assoc();
-        echo "<meta http-equiv='refresh' content='0;?p=home_user'>";
+        echo "<meta http-equiv='refresh' content='0;?p=home/home_user'>";
     }
 }

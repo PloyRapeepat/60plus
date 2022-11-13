@@ -7,29 +7,31 @@
             <div id="x" class="collapse navbar-collapse">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a href="?p=about" class="nav-link">เกี่ยวกับเรา</a>
+                        <a href="?p=home/news" class="nav-link">ข่าวสาร</a>
                     </li>
                     <li class="nav-item">
-                        <a href="?p=informetion" class="nav-link">ข่าวสาร</a>
+                        <a href="?p=chat/admin_view" class="nav-link">พูดคุย</a>
                     </li>
                     <li class="nav-item">
-                        <a href="?p=chat" class="nav-link">พูดคุย</a>
+                        <a href="?p=admin/usermanage" class="nav-link">จัดการผู้ใช้</a>
                     </li>
                     <li class="nav-item">
-                        <a href="?p=usermanage" class="nav-link">จัดการผู้ใช้</a>
-                    </li>
-                    
-                    <li class="nav-item">
-                        <a href="?p=evamanage" class="nav-link">จัดการแบบประเมิน</a>
+                        <a href="?p=package/view" class="nav-link">แพ็คเกจ</a>
                     </li>
                     <li class="nav-item">
-                        <a href="?p=report" class="nav-link">รายงาน</a>
+                        <a href="?p=poll/view" class="nav-link">จัดการแบบประเมิน</a>
                     </li>
                     <li class="nav-item">
-                        <a href="?p=edituser" class="nav-link">แก้ไขข้อมูลส่วนตัว</a>
+                        <a href="?p=report/view" class="nav-link">รายงาน</a>
                     </li>
                     <li class="nav-item">
-                        <a href="?p=logout" class="nav-link">ออกจากระบบ</a>
+                        <a href="?p=user/edituser" class="nav-link">แก้ไขข้อมูลส่วนตัว</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?p=home/about" class="nav-link">เกี่ยวกับเรา</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?p=logout/signout" onclick="return confirm('ออกจากระบบ ?')" class="nav-link">ออกจากระบบ</a>
                     </li>
 
                 </ul>
