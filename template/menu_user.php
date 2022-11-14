@@ -7,19 +7,22 @@
             <div id="x" class="collapse navbar-collapse">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a href="?p=home/about" class="nav-link">เกี่ยวกับเรา</a>
-                    </li>
-                    <li class="nav-item">
                         <a href="?p=home/news" class="nav-link">ข่าวสาร</a>
                     </li>
                     <li class="nav-item">
                         <a href="?p=chat/view" class="nav-link">พูดคุย</a>
                     </li>
                     <li class="nav-item">
+                        <a href="?p=forum/view" class="nav-link">กระดานสนทนา</a>
+                    </li>
+                    <li class="nav-item">
                         <a href="?p=package/view" class="nav-link">แพ็คเกจ</a>
                     </li>
                     <li class="nav-item">
                         <a href="?p=user/edituser" class="nav-link">แก้ไขข้อมูลส่วนตัว</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?p=home/about" class="nav-link">เกี่ยวกับเรา</a>
                     </li>
                     <li class="nav-item">
                         <a href="?p=logout/signout" onclick="return confirm('ออกจากระบบ ?')" class="nav-link">ออกจากระบบ</a>

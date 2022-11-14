@@ -13,6 +13,9 @@
                         <a href="?p=chat/admin_view" class="nav-link">พูดคุย</a>
                     </li>
                     <li class="nav-item">
+                        <a href="?p=forum/view" class="nav-link">กระดานสนทนา</a>
+                    </li>
+                    <li class="nav-item">
                         <a href="?p=admin/usermanage" class="nav-link">จัดการผู้ใช้</a>
                     </li>
                     <li class="nav-item">
