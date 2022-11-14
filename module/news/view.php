@@ -1,5 +1,9 @@
 ข่าว<br>
-<a href="?p=news/new" class="btn btn-success">ประกาศข่าวใหม่</a>
+<?php 
+if(!empty($_SESSION['user'])&&$_SESSION['user']['user_type']=='admin'){
+    echo '<a href="?p=news/new" class="btn btn-success">ประกาศข่าวใหม่</a>';
+}
+?>
 <table class="table">
         <thead>
             <tr>
