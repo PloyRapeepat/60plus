@@ -1,4 +1,8 @@
 <?php
+//บันทึกจำนวนผู้เยี่ยมชม
+$sql='update forum set visitor=visitor+1 where id='.$_GET['id'];
+$result=$db->query($sql);
+
 $sql='select * from forum where id='.$_GET['id'];
 $result=$db->query($sql);
 $forum=$result->fetch_assoc();

@@ -7,7 +7,7 @@
             <div id="x" class="collapse navbar-collapse">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a href="?p=home/news" class="nav-link">ข่าวสาร</a>
+                        <a href="?p=news/view" class="nav-link">ข่าวสาร</a>
                     </li>
                     <li class="nav-item">
                         <a href="?p=chat/admin_view" class="nav-link">พูดคุย</a>
