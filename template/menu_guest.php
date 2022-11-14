@@ -13,6 +13,12 @@
                         <a href="?p=chat/view" class="nav-link">พูดคุย</a>
                     </li>
                     <li class="nav-item">
+                        <a href="?p=forum/view" class="nav-link">กระดานสนทนา</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?p=package/view" class="nav-link">แพ็คเกจ</a>
+                    </li>
+                    <li class="nav-item">
                         <a href="?p=home/about" class="nav-link">เกี่ยวกับเรา</a>
                     </li>
                     <li class="nav-item">

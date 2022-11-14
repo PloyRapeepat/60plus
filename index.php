@@ -4,7 +4,7 @@ session_start();
 include('include/db.php');
 
     if(empty($_GET['p'])){
-        $page='./module/home.php';
+        $page='./module/home/home.php';
     }else{
         $page='./module/'.$_GET['p'].'.php';
     }

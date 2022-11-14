@@ -1,7 +1,7 @@
 <form action="?p=usermanage" method="post">
     <input type="text" name="q" class="form-control"> 
     <button type="submit" class="btn btn-primary">ค้นหา</button>
-    <a href="?p=add_user" class="btn btn-success">เพิ่มผู้ใช้</a>
+    <a href="?p=admin/add_user" class="btn btn-success">เพิ่มผู้ใช้</a>
 </form>
 <table class="table">
     <thead>
@@ -31,7 +31,8 @@
             echo '<td>'.$row['surname'].'</td>';
             echo '<td>'.$row['email'].'</td>';
             echo '<td>
-                    <a href="?p=view_user&id='.$row['id'].'">E</a>
+                    <a href="?p=chat/view&r_id='.$row['id'].'">C</a>
+                    <a href="?p=admin/view_user&id='.$row['id'].'">E</a>
                     <a href="?p=delete_user&id='.$row['id'].'" onclick="return confirm(\'ลบ?\')">X</a>
                   </td>';
             echo '</tr>';

@@ -10,7 +10,7 @@
                         <a href="?p=news/view" class="nav-link">ข่าวสาร</a>
                     </li>
                     <li class="nav-item">
-                        <a href="?p=chat/view" class="nav-link">พูดคุย</a>
+                        <a href="?p=chat/view&r_id=1" class="nav-link">พูดคุย</a>
                     </li>
                     <li class="nav-item">
                         <a href="?p=forum/view" class="nav-link">กระดานสนทนา</a>
